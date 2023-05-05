@@ -1,0 +1,53 @@
+.flex-all-centre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    padding: 5px 10px;
+    color: white;
+    background-color: var(--main-bg-color);
+    border: 2px solid white;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    /* color: black;
+    font-weight: 400;
+    border: 2px solid black; */
+    text-decoration: underline;
+    padding: 6px 12px;
+}
+.btn1{
+    padding: 15px 10px;
+    background-color: whitesmoke;
+    font-size: 50px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn1:hover{
+    color: var(--main-bg-color) ;
+}
+.icons{
+    color: white;
+    display: flex;
+    position: relative;
+    top: 15px;
+    left: 60px;
+    cursor: pointer;
+}
+.icons:hover{
+    /* color: black;     */
+    padding: 2px 5px;
+}
+.my-2 {
+    margin: 20px 0;
+}
+
+.text-centre {
+    text-align: center;
+}

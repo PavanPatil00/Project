@@ -1,0 +1,700 @@
+/* media query for screen width-1024px */
+@media screen and (max-width:1024px) {
+    body {
+        background-color: red;
+    }
+
+    header {
+        height: 20vh;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    .logo {
+        justify-content: center;
+        margin: 5px 0;
+    }
+
+    nav ul {
+        justify-content: center;
+    }
+
+    .search {
+        justify-content: center;
+    }
+    
+    .icons{
+        position: absolute;
+        top: 14vh;
+        left: 16vw;
+    }
+
+    .card-nav{
+        display: inline-block;
+        margin: 10px 20px;
+        cursor: pointer;
+    }
+    .slider {
+        /* overflow: hidden; */
+        margin: auto;
+        display:flex;
+        background-color: whitesmoke;
+        /* justify-content: center; */
+    }
+    
+    .slider_images {
+        overflow: hidden;
+        margin: auto;
+        display:flex;
+        justify-content: center;
+        padding: 10px 0px;
+    }
+    
+    .btn-container{
+        margin: auto;
+    }
+    
+    .img1 {
+        width: 85vw; 
+         height: 300px;
+        transform: translate(124vw);
+        animation: slide 3s 3s forwards;
+        cursor: pointer;
+    }
+    
+    .img2 {
+        width: 85vw; 
+         height: 300px;
+        transform: translate(150vw);
+        animation: slide2 6s 3s forwards;
+        cursor: pointer;
+    }
+    
+    .img3 {
+        width: 80vw;
+        height: 300px;
+        transform: translate(60vw);
+        animation: slide3 6s 6.5s forwards;
+        cursor: pointer;
+    }
+    
+    .img4 {
+        width: 80vw;
+        height: 300px;
+        transform: translate(80vw);
+        animation: slide4 9s 7s forwards;
+        cursor: pointer;
+    }
+    @keyframes slide {
+        0% {
+            transform: translate(120vw);
+        }
+    
+        100% {
+            transform: translate(0vw);
+        }
+    }
+    
+    @keyframes slide2 {
+        0% {
+            transform: translate(150vw);
+        }
+    
+        50% {
+            transform: translate(40vw);
+        }
+    
+        100% {
+            transform: translate(-80vw);
+        }
+    }
+    
+    @keyframes slide3 {
+        0% {
+            transform: translate(60vw);
+        }
+    
+        50% {
+            transform: translate(-40vw);
+        }
+    
+        100% {
+            transform: translate(-140vw);
+        }
+    }
+    
+    @keyframes slide4 {
+        0% {
+            transform: translate(80vw);
+        }
+    
+        100% {
+            transform: translate(-120vw);
+        }
+    }
+}
+
+/* media query for screen width-920px */
+@media screen and (max-width:920px) {
+    body {
+        background-color: rgb(161, 125, 218);
+    }
+
+    header {
+        height: 12vh;
+    }
+
+    .logo {
+        justify-content: center;
+        margin: 8px 0;
+    }
+
+    .icons{
+        position: absolute;
+        left: 14vw;
+        top: 7vh;
+    }
+    .b-navbar{
+        height: 12vh;
+     
+    }
+    .card-nav{
+        display: inline-block;
+        margin: 10px 15px;
+        cursor: pointer;
+    }
+
+    .card-nav img{
+        border-radius: 30px;
+        /* display: none; */
+    }
+
+    .slider {
+        /* overflow: hidden; */
+        margin: auto;
+        display:flex;
+        background-color: whitesmoke;
+        /* justify-content: center; */
+    }
+    
+    .slider_images {
+        overflow: hidden;
+        margin: auto;
+        display:flex;
+        justify-content: center;
+        padding: 10px 0px;
+    }
+    
+    .img1 {
+        width: 85vw; 
+         height: 300px;
+        transform: translate(124vw);
+        animation: slide 3s 3s forwards;
+        cursor: pointer;
+    }
+    
+    .img2 {
+        width: 85vw; 
+         height: 300px;
+        transform: translate(150vw);
+        animation: slide2 6s 3s forwards;
+        cursor: pointer;
+    }
+    
+    .img3 {
+        width: 80vw;
+        height: 300px;
+        transform: translate(60vw);
+        animation: slide3 6s 6.5s forwards;
+        cursor: pointer;
+    }
+    
+    .img4 {
+        width: 80vw;
+        height: 300px;
+        transform: translate(80vw);
+        animation: slide4 9s 7s forwards;
+        cursor: pointer;
+    }
+    @keyframes slide {
+        0% {
+            transform: translate(120vw);
+        }
+    
+        100% {
+            transform: translate(0vw);
+        }
+    }
+    
+    @keyframes slide2 {
+        0% {
+            transform: translate(150vw);
+        }
+    
+        50% {
+            transform: translate(40vw);
+        }
+    
+        100% {
+            transform: translate(-80vw);
+        }
+    }
+    
+    @keyframes slide3 {
+        0% {
+            transform: translate(60vw);
+        }
+    
+        50% {
+            transform: translate(-40vw);
+        }
+    
+        100% {
+            transform: translate(-140vw);
+        }
+    }
+    
+    @keyframes slide4 {
+        0% {
+            transform: translate(80vw);
+        }
+    
+        100% {
+            transform: translate(-120vw);
+        }
+    }
+}
+
+/* media query for screen width-820px */
+@media screen and (max-width:820px) {
+    body {
+        background-color: rgb(255, 123, 0);
+    }
+
+    header {
+        height: 12vh;
+    }
+
+    .logo {
+        justify-content: center;
+        margin: 8px 0;
+    }
+
+    .icons{
+        position: absolute;
+        left: 10vw;
+        top: 7vh;
+    }
+    .b-navbar{
+        height: 10vh;
+     
+    }
+    .card-nav{
+        display: inline-block;
+        margin: 10px 15px;
+        cursor: pointer;
+    }
+
+    .card-nav img{
+        border-radius: 30px;
+        /* display: none; */
+        width: 40px;
+        height: 40px;
+    }
+
+    .card-nav img,p{
+        font-size: small;
+    }
+
+    .slider {
+        /* overflow: hidden; */
+        margin: auto;
+        display:flex;
+        background-color: whitesmoke;
+        /* justify-content: center; */
+    }
+    
+    .slider_images {
+        overflow: hidden;
+        margin: auto;
+        display:flex;
+        justify-content: center;
+        padding: 10px 0px;
+    }
+    .img1 {
+        width: 85vw; 
+         height: 25vh;
+        transform: translate(124vw);
+        animation: slide 3s 3s forwards;
+        cursor: pointer;
+    }
+    
+    .img2 {
+        width: 85vw; 
+         height: 25vh;
+        transform: translate(150vw);
+        animation: slide2 6s 3s forwards;
+        cursor: pointer;
+    }
+    
+    .img3 {
+        width: 80vw;
+        height: 25vh;
+        transform: translate(60vw);
+        animation: slide3 6s 6.5s forwards;
+        cursor: pointer;
+    }
+    
+    .img4 {
+        width: 80vw;
+        height: 25vh;
+        transform: translate(80vw);
+        animation: slide4 9s 7s forwards;
+        cursor: pointer;
+    }
+    @keyframes slide {
+        0% {
+            transform: translate(120vw);
+        }
+    
+        100% {
+            transform: translate(0vw);
+        }
+    }
+    
+    @keyframes slide2 {
+        0% {
+            transform: translate(150vw);
+        }
+    
+        50% {
+            transform: translate(40vw);
+        }
+    
+        100% {
+            transform: translate(-80vw);
+        }
+    }
+    
+    @keyframes slide3 {
+        0% {
+            transform: translate(60vw);
+        }
+    
+        50% {
+            transform: translate(-40vw);
+        }
+    
+        100% {
+            transform: translate(-140vw);
+        }
+    }
+    
+    @keyframes slide4 {
+        0% {
+            transform: translate(80vw);
+        }
+    
+        100% {
+            transform: translate(-120vw);
+        }
+    }
+}
+
+/* media query for screen width-700px */
+@media screen and (max-width:700px) {
+    body {
+        background-color: rgb(0, 255, 13);
+    }
+
+    header {
+        height: 19vh;
+    }
+
+    .logo {
+        justify-content: center;
+        margin: 8px 0;
+    }
+
+    .slider {
+        /* overflow: hidden; */
+        margin: auto;
+        display:flex;
+        background-color: whitesmoke;
+        /* justify-content: center; */
+    }
+    
+    .slider_images {
+        overflow: hidden;
+        margin: auto;
+        display:flex;
+        justify-content: center;
+        padding: 10px 0px;
+    }
+    
+
+    .img1 {
+        width: 70vw;
+        height: 30vw;
+        transform: translate(70vw);
+        animation: slide 3s 2s forwards;
+    }
+
+    .img2 {
+        width: 70vw;
+        height: 30vw;
+        transform: translate(100vw);
+        animation: slide2 6s 3s forwards;
+    }
+
+    .img3 {
+        width: 70vw;
+        height: 30vw;
+        transform: translate(50vw);
+        animation: slide3 6s 6.5s forwards;
+    }
+
+    .img4 {
+        width: 70vw;
+        height: 30vw;
+        transform: translate(80vw);
+        animation: slide4 8s 9s forwards;
+    }
+
+    @keyframes slide {
+        0% {
+            transform: translate(70vw);
+        }
+
+        100% {
+            transform: translate(-100vw);
+        }
+    }
+
+    @keyframes slide2 {
+        0% {
+            transform: translate(90vw);
+        }
+
+        50% {
+            transform: translate(15vw);
+        }
+
+        100% {
+            transform: translate(-80vw);
+        }
+    }
+
+    @keyframes slide3 {
+        0% {
+            transform: translate(50vw);
+        }
+
+        50% {
+            transform: translate(-30vw);
+        }
+
+        100% {
+            transform: translate(-120vw);
+        }
+    }
+
+    @keyframes slide4 {
+        0% {
+            transform: translate(80vw);
+        }
+
+        50% {
+            transform: translate(-80vw);
+        }
+
+        100% {
+            transform: translate(-200vw);
+        }
+    }
+}
+
+/* media query for screen width-550px */
+@media screen and (max-width:550px) {
+    body {
+        background-color: rgb(255, 123, 0);
+    }
+
+    header {
+        height: 19vh;
+    }
+
+    .logo {
+        justify-content: center;
+        margin: 8px 0;
+    }
+    .b-navbar{
+        height: 12vh;
+     
+    }
+    .card-nav{
+        display: inline-block;
+        margin: 10px 20px;
+        cursor: pointer;
+    }
+
+    .card-nav img{
+        border-radius: 30px;
+        display: none;
+    }
+
+    .img1 {
+        width: 85vw; 
+         height: 20vh;
+        transform: translate(124vw);
+        animation: slide 3s 3s forwards;
+        cursor: pointer;
+    }
+    
+    .img2 {
+        width: 85vw; 
+         height: 20vh;
+        transform: translate(150vw);
+        animation: slide2 6s 3s forwards;
+        cursor: pointer;
+    }
+    
+    .img3 {
+        width: 80vw;
+        height: 20vh;
+        transform: translate(60vw);
+        animation: slide3 6s 6.5s forwards;
+        cursor: pointer;
+    }
+    
+    .img4 {
+        width: 80vw;
+        height: 20vh;
+        transform: translate(80vw);
+        animation: slide4 9s 7s forwards;
+        cursor: pointer;
+    }
+    @keyframes slide {
+        0% {
+            transform: translate(120vw);
+        }
+    
+        100% {
+            transform: translate(0vw);
+        }
+    }
+    
+    @keyframes slide2 {
+        0% {
+            transform: translate(150vw);
+        }
+    
+        50% {
+            transform: translate(40vw);
+        }
+    
+        100% {
+            transform: translate(-80vw);
+        }
+    }
+    
+    @keyframes slide3 {
+        0% {
+            transform: translate(60vw);
+        }
+    
+        50% {
+            transform: translate(-40vw);
+        }
+    
+        100% {
+            transform: translate(-140vw);
+        }
+    }
+    
+    @keyframes slide4 {
+        0% {
+            transform: translate(80vw);
+        }
+    
+        100% {
+            transform: translate(-120vw);
+        }
+    }
+}
+
+
+/* media query for screen width-420px */
+@media screen and (max-width:420px) {
+    body {
+        background-color: rgb(255, 123, 0);
+    }
+
+    header {
+        height: 16vh;
+    }
+
+    .logo {
+        justify-content: center;
+        margin: 8px 0;
+    }
+
+    .icons{
+        position: absolute;
+        left: auto;
+        top: 11vh;
+    }
+    .b-navbar{
+        height: 15vh;
+     
+    }
+    .card-nav{
+        display: inline-block;
+        margin: 10px 20px;
+        cursor: pointer;
+    }
+
+    .card-nav img{
+        border-radius: 30px;
+        display: none;
+    }
+}
+
+/* media query for screen width-375px */
+@media screen and (max-width:375px) {
+    body {
+        background-color: rgb(255, 123, 0);
+    }
+
+    header {
+        height: 19vh;
+    }
+
+    .logo {
+        justify-content: center;
+        margin: 8px 0;
+    }
+
+    .b-navbar{
+        height: 16vh;
+     
+    }
+
+    .icons{
+        position: absolute;
+        left: auto;
+    }
+
+    .card-nav{
+        display: inline-block;
+        margin: 10px 15px;
+        cursor: pointer;
+    }
+
+    .card-nav img{
+        border-radius: 30px;
+        display: none;
+    }
+}
